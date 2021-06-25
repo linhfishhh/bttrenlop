@@ -20,7 +20,7 @@ public class ExceptionJava {
 		int x = sc.nextInt();
 		try {
 			System.out.println("Giá trị của phần tử có chỉ số " + x + " là " + arr[x]);
-		} catch (IndexOutOfBoundsException e) {
+		} catch (Exception e) {
 			System.err.println("Chỉ số vượt quá giới hạn của mảng");
 		}
 	}
